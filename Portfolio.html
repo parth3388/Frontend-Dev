@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parth Goyal — Portfolio</title>
+  <style>
+    /* ===== Base Styles ===== */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: "Poppins", sans-serif;
+      background-color: #f8f9fa;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    a {
+      color: #0077cc;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* ===== Header ===== */
+    header {
+      background: #222;
+      color: #fff;
+      text-align: center;
+      padding: 40px 15px;
+    }
+
+    header h1 {
+      font-size: 2.2em;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1em;
+      color: #ccc;
+    }
+
+    /* ===== Navigation ===== */
+    nav {
+      background: #333;
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    nav ul {
+      list-style: none;
+    }
+
+    nav li {
+      display: inline-block;
+      margin: 0 15px;
+    }
+
+    nav a {
+      color: #fff;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      color: #ffcc00;
+    }
+
+    /* ===== Main Content ===== */
+    main {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    section {
+      margin-bottom: 50px;
+    }
+
+    h2 {
+      color: #222;
+      margin-bottom: 15px;
+      border-bottom: 3px solid #ffcc00;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+
+    p, li {
+      font-size: 1em;
+    }
+
+    ul, ol {
+      margin-left: 20px;
+      line-height: 1.8;
+    }
+
+    /* ===== Table (Education) ===== */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: left;
+    }
+
+    th {
+      background: #f1f1f1;
+    }
+
+    caption {
+      caption-side: top;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+
+    /* ===== Footer ===== */
+    footer {
+      background: #222;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9em;
+      margin-top: 40px;
+    }
+
+    /* ===== Responsive ===== */
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.8em;
+      }
+      nav li {
+        display: block;
+        margin: 10px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Parth Goyal</h1>
+    <p>
+      <strong>Email:</strong> <a href="mailto:parthgoyal@example.com">parthgoyal3388@gmail.com</a> |
+      <strong>Phone:</strong> <a href="tel:+911234567890">+91 9050484545</a> |
+      <strong>Location:</strong> India
+    </p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I am an enthusiastic engineering student passionate about technology and innovation.
+        My interests include web development, artificial intelligence, microprocessors, and networking.
+        I enjoy working on projects that merge creativity with technical problem-solving.
+      </p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>Web Development — HTML, CSS, JavaScript</li>
+        <li>Python — Data Analysis & Scripting</li>
+        <li>Git & GitHub (Collaborative Workflow)</li>
+        <li>Basic Machine Learning & Neural Networks (Keras)</li>
+        <li>Linux and Command-line Tools</li>
+        <li>Microprocessor Programming — 8086, 8255, 8259, 8254, 8257</li>
+        <li>Networking — TCP/IP, Dijkstra Algorithm, RSA Cryptography</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <ol>
+        <li>
+          <strong>Portfolio Website</strong>
+          <p>Developed a responsive single-page portfolio using pure HTML and CSS to showcase skills and projects.</p>
+        </li>
+        <li>
+          <strong>Smart Notice Agent</strong>
+          <p>Web-based notice management system with dashboard, analytics, and history tracking features.</p>
+        </li>
+        <li>
+          <strong>ANN Model Implementation</strong>
+          <p>End-to-end Artificial Neural Network project using Keras for data preprocessing, training, and analysis.</p>
+        </li>
+      </ol>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <table>
+        <caption>Academic Qualifications</caption>
+        <thead>
+          <tr>
+            <th>Course</th>
+            <th>Institute</th>
+            <th>Year</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Bachelor of Technology (Computer Science)</td>
+            <td>Your Institute Name</td>
+            <td>2022 — 2026</td>
+          </tr>
+          <tr>
+            <td>Senior Secondary (12th)</td>
+            <td>Your School Name</td>
+            <td>2021</td>
+          </tr>
+          <tr>
+            <td>Secondary (10th)</td>
+            <td>Your School Name</td>
+            <td>2019</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Parth Goyal. All rights reserved.
+  </footer>
+</body>
+</html>
